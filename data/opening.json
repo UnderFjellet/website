@@ -5,32 +5,36 @@
   ],
   "rows": [
     {
-      "Day": "Monday",
+      "Day": "Mandag",
+      "Opening": "09:00 - 15:30"
+    },
+    {
+      "Day": "Tirsdag",
+      "Opening": "09:00 - 15:30"
+    },
+    {
+      "Day": "Onsdag",
+      "Opening": "Stengt"
+    },
+    {
+      "Day": "Torsdag",
       "Opening": "09:00 - 15:00"
     },
     {
-      "Day": "Monday",
-      "Opening": "09:00 - 15:00"
+      "Day": "",
+      "Opening": "18:00 - 20:00"
     },
     {
-      "Day": "Monday",
-      "Opening": "09:00 - 15:00"
+      "Day": "Fredag",
+      "Opening": "09:00 - 15:30"
     },
     {
-      "Day": "Monday",
-      "Opening": "09:00 - 15:00"
+      "Day": "Lørdag",
+      "Opening": "09:00 - 13:00"
     },
     {
-      "Day": "Monday",
-      "Opening": "09:00 - 15:00"
-    },
-    {
-      "Day": "Monday",
-      "Opening": "09:00 - 15:00"
-    },
-    {
-      "Day": "Monday",
-      "Opening": "09:00 - 15:00"
+      "Day": "Søndag",
+      "Opening": "Stengt"
     }
   ]
 }

@@ -1,11 +1,11 @@
 ---
-title: 'Homepage'
-meta_title: 'Hugo Serif Theme'
-description: "Serif is a modern business theme for Hugo."
+title: 'Hjem'
+meta_title: 'Dyrlegen Under Fjellet'
+description: "Dyrlegen Under Fjellet er din veterinær i Holmestrand sentrum"
 intro_image: "images/vet_illustration_1.svg"
 intro_image_absolute: true 
 intro_image_hide_on_mobile: true
 ---
 
-# Trusted care for the ones you trust the most
-Established in 2021, Dyrlegen Under Fjellet is your veterinarian in Holmestrand Center
+# God og nær oppfølging for dyret ditt
+Dyrlegen Under Fjellet er din veterinær i Holmestrand sentrum 
