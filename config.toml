@@ -13,3 +13,21 @@ alt = "Dyrlegen Underfjellet"
 [params.homepage]
 show_contact_box = true # show / hide the contaxt box on the homepage
 show_services_button = true  # show / hide the "view all services" button
+
+[menu]
+  # Main Menu
+  [[menu.main]]
+      name = "Tjenester"
+      url = "/tjenester/"
+      weight = 4
+
+  [[menu.main]]
+      name = "Hjem"
+      url = "/"
+      weight = 4
+
+  [[menu.main]]
+      name = "Om oss"
+      url = "/omoss/"
+      weight = 4
+
