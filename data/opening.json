@@ -1,0 +1,36 @@
+{
+  "headers": [
+      "Day",
+      "Opening"
+  ],
+  "rows": [
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    },
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    },
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    },
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    },
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    },
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    },
+    {
+      "Day": "Monday",
+      "Opening": "09:00 - 15:00"
+    }
+  ]
+}

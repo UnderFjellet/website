@@ -1,0 +1,15 @@
+baseURL = "http://underfjellet.vet/"
+languageCode = "no"
+title = "Dyrlegen Under Fjellet"
+theme = "hugo-serif-theme"
+
+[params.logo]
+mobile = "images/du_logo.png"
+mobile_height = "36px"
+desktop = "images/du_logo.png"
+desktop_height = "100px"
+alt = "Dyrlegen Underfjellet"
+
+[params.homepage]
+show_contact_box = true # show / hide the contaxt box on the homepage
+show_services_button = true  # show / hide the "view all services" button
