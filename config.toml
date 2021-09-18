@@ -31,3 +31,5 @@ show_services_button = true  # show / hide the "view all services" button
       url = "/omoss/"
       weight = 4
 
+[params.footer]
+copyright_text = '&#169; 2021 Dyrlegen Under Fjellet'
