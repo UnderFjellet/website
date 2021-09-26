@@ -8,4 +8,4 @@ intro_image_hide_on_mobile: true
 ---
 
 # God og nær oppfølging for dyret ditt
-Dyrlegen Under Fjellet er din veterinær i Holmestrand sentrum 
+Dyrlegen Under Fjellet åpner i Holmestrand Sentrum den **30. September 2021**!
