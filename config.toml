@@ -24,12 +24,12 @@ show_services_button = true  # show / hide the "view all services" button
   [[menu.main]]
       name = "Hjem"
       url = "/"
-      weight = 4
+      weight = 8
 
   [[menu.main]]
       name = "Om oss"
       url = "/omoss/"
-      weight = 4
+      weight = 8
 
 [params.footer]
 copyright_text = '&#169; 2021 Dyrlegen Under Fjellet'
