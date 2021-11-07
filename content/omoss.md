@@ -5,18 +5,29 @@ layout: aboutus
 ---
 ## Maria Palomar -- Daglig leder og veterinær
 
-Siden endt utdannelse har jeg jobbet ved flere smådyrklinikker på østlandet, alle på mange måter
-forskjellige. Nå har jeg altså tatt sats, og med familien i ryggen åpner jeg egen dyreklinikk i hjertet av
-Holmestrand. Her ønsker jeg å ta med meg erfaringer og det jeg har likt best fra tidligere arbeidsplasser,
-og skape en koselig og moderne klinikk.
+Siden endt utdannelse (2010) har jeg jobbet ved flere smådyrklinikker på
+østlandet, alle på mange måter forskjellige. Jeg og familien flyttet til
+Holmestrand i 2017, og denne flotte byen blir stadig større og mer spennende.
+Med etableringen av “Dyrlegen Under Fjellet” i oktober 2021 ønsket vi å være med
+på denne utviklingen! Her tar jeg med meg erfaringer og det jeg har likt best
+fra tidligere arbeidsplasser for å utvikle en koselig og moderne klinikk. Jeg
+har et bredt interessefelt innen smådyrklinikk, og jeg liker aller best å kunne
+følge dyrene og eierne på en helhetlig måte.
 
-Jeg og familien flyttet til Holmestrand i 2017, og denne flotte byen blir stadig større og mer spennende.
-Med etableringen av "Dyrlegen Under Fjellet" ønsker vi å være med på denne utviklingen!
 
-Det har også vært en enorm utvikling innen veterinærmedisinen bare siden jeg avsluttet studiet i 2010.
-Det dukker opp stadig større klinikk-kjeder og dyresykehus, med stadig mer avansert utstyr og
-prosedyrer. Dette er jo fantastisk. Likevel tror jeg at små, lokale klinikker med personlig oppfølging har
-en viktig plass. Og med et godt samarbeid med de store vil det være gull.
+## Tjenester
 
-I oppstarten er det kun meg dere vil finne i klinikken. Etterhvert er målet å vokse litt både i personale og
-tilbud, for å kunne tilby den best mulige behandling og oppfølging for dyrene i Holmestrand.
+Av tjenester tilbyr vi blant annet: 
+  - Konsultasjoner – klinisk undersøkelse, blodprøver, urinprøver
+  - Vaksinering, id-merking, passutstedelse
+  - Tannrens og enkel tanntrekk (vi har foreløpig ikke tannrøntgen)
+  - Kloklipp
+  - Ørerens
+  - Sårstell og mindre kirurgiske inngrep som kastrering av katt, fjerning av hudsvulster.
+  - Når det er nødvendig henviser vi til større dyreklinikker /dyresykehus og spesialister. 
+  - En god livsavslutning når det er nødvendig. Vi har samarbeid med Hjertedyr Drammen smådyrkrematorium  for felleskremering og separat kremering. De tilbyr også nydelige urner og askesmykker. www.hjertedyr.no
+
+Vi selger: 
+
+  - Spesialfôr fra Hill`s. Vi finner det fôret som best ivaretar helsen til det enkelte dyret og kan bestille inn fôr vi ikke har inne på lager. 
+  - Apotekvarer som spesialsjampo /hudprodukter, tannhelseprodukter, ørerens, pro /prebiotika, omega 3-tilskudd. 
