@@ -24,11 +24,16 @@ show_services_button = true  # show / hide the "view all services" button
   [[menu.main]]
       name = "Hjem"
       url = "/"
-      weight = 8
+      weight = 4
 
   [[menu.main]]
       name = "Om oss"
       url = "/omoss/"
+      weight = 8
+
+  [[menu.main]]
+      name = "Priser"
+      url = "/priser/"
       weight = 8
 
 [params.footer]
