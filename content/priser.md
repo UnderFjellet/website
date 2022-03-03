@@ -13,8 +13,7 @@ Utvalgte grunnpriser:
   - Id-merking med mikrochip inkludert avgift til DyreId: 850,-
   - Kloklipp: 240,-. Tillegg kloklipp ved annen konsultasjon: 160,-
   - Tannsteinfjerning katt: 1390,-
-  - Tannsteinfjerning hund opptil 20 kg: 1890,-
-  - Tannsteinfjerning hund 20-40 kg: 2140,-
+  - Tannsteinfjerning hund: 1890,-
   - Kastrering hannkatt: 1090,-
   - Kastrering hunnkatt: 2170,-
 
