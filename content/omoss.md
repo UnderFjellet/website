@@ -20,10 +20,11 @@ følge dyrene og eierne på en helhetlig måte.
 Av tjenester tilbyr vi blant annet: 
   - Konsultasjoner – klinisk undersøkelse, blodprøver, urinprøver
   - Vaksinering, id-merking, passutstedelse
-  - Tannrens og enkel tanntrekk (vi har foreløpig ikke tannrøntgen)
+  - Tannbehandling, tannrøntgen
   - Kloklipp
   - Ørerens
-  - Sårstell og mindre kirurgiske inngrep som kastrering av katt, fjerning av hudsvulster.
+  - Sårstell 
+  - Mindre kirurgiske inngrep som kastrering av katt, fjerning av hudsvulster.
   - Når det er nødvendig henviser vi til større dyreklinikker /dyresykehus og spesialister. 
   - En god livsavslutning når det er nødvendig. Vi har samarbeid med Hjertedyr Drammen smådyrkrematorium  for felleskremering og separat kremering. De tilbyr også nydelige urner og askesmykker. www.hjertedyr.no
 
