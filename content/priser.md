@@ -16,7 +16,10 @@ Utvalgte grunnpriser:
   - Tannsteinfjerning katt: 1550,-
   - Tannsteinfjerning hund: 1950,-
   - Tannrøntgen tillegg: 900,-
-  - Kastrering hannkatt: 1100,-
-  - Kastrering hunnkatt: 2250,-
+  - Kastrering hannkatt: 1300,-
+  - Kastrering hunnkatt: 2400,-
+  - /Pakkepris/ kastrering, id-merking og 1 vaksine hannkatt: 2400,-
+  - /Pakkepris/ kastrering, id-merking og 1 vaksine hunnkatt: 3500,-
+
 
 
