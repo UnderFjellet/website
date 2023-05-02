@@ -15,7 +15,7 @@ Utvalgte grunnpriser:
   - Kloklipp: 250,-. Tillegg kloklipp ved annen konsultasjon: 200,-
   - Tannsteinfjerning katt: 1550,-
   - Tannsteinfjerning hund: 1950,-
-  - Tannrøntgen tillegg: 900,-
+  - Tannrøntgen tillegg: 950,-
   - Kastrering hannkatt: 1300,-
   - Kastrering hunnkatt: 2400,-
   - /Pakkepris/ kastrering, id-merking og 1 vaksine hannkatt: 2400,-
