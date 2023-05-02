@@ -2,9 +2,9 @@
 
 Utvalgte grunnpriser:
 
-  - Konsultasjon opptil 20 minutter: 750,- 
-  - Konsultasjon 20-40 minutter: 1350,-
-  - Konsultasjon 40-60 minutter: 1950,-
+  - Konsultasjon opptil 20 minutter: 820,- 
+  - Konsultasjon 20-40 minutter: 1470,-
+  - Konsultasjon 40-60 minutter: 2120,-
   - Vaksine hund, DHPPi, Pi, BbPi: 720,-
   - Vaksine hund DHPPi + BbPi: 890,-
   - Vaksine katt: tricat, ducat: 720,-
