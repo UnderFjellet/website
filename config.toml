@@ -37,4 +37,4 @@ show_services_button = true  # show / hide the "view all services" button
       weight = 8
 
 [params.footer]
-copyright_text = '&#169; 2021 Dyrlegen Under Fjellet'
+copyright_text = '&#169; 2021-2026 Dyrlegen Under Fjellet'
