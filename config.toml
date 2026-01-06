@@ -1,4 +1,4 @@
-baseURL = "http://underfjellet.vet/"
+baseURL = "http://underfjellet.no/"
 languageCode = "no"
 title = "Dyrlegen Under Fjellet"
 theme = "hugo-serif-theme"
@@ -38,3 +38,16 @@ show_services_button = true  # show / hide the "view all services" button
 
 [params.footer]
 copyright_text = '&#169; 2021-2026 Dyrlegen Under Fjellet'
+
+[params.fonts]
+# sets the google font link in layouts/partials/google-fonts.html
+google_fonts = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap'
+heading = "Playfair Display"
+base = "Source Sans Pro"
+
+[params.colors]
+primary = "#67a2d5"
+black = "#2f2f41"
+white = "#ffffff"
+white_offset = "#f6f7ff"
+grey = "#5C5A5A"
