@@ -1,0 +1,4 @@
+[build.environment]
+HUGO_VERSION = "0.152.2"
+HUGO_ENV = "production"
+TZ = "Europe/Oslo"
