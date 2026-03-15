@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ block "title" . }}{{ .Params.meta_title | default (printf "%s – %s" .Title .Site.Title) }}{{ end }}</title>
+  <link rel="icon" type="image/png" href="{{ .Site.Params.favicon | default "images/du_logo.png" | relURL }}">
+
+  {{ partial "google-fonts.html" . }}
+
+  {{ $css_options := dict "targetPath" "css/style.css" "enableSourceMap" (not hugo.IsProduction) }}
+  {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS $css_options }}
+  {{ if hugo.IsProduction }}{{ $style = $style | minify | fingerprint }}{{ end }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+  {{ block "meta_tags" . }}
+    {{ with .Params.description }}<meta name="description" content="{{ . }}"/>{{ end }}
+    <meta property="og:title" content="{{ .Params.meta_title | default .Title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <meta property="og:site_name" content="{{ .Site.Title }}"/>
+    {{ with .Params.image | default .Site.Params.seo.meta_og_image }}<meta property="og:image" content="{{ . | absURL }}"/>{{ end }}
+    {{ with .Params.description }}<meta property="og:description" content="{{ . }}"/>{{ end }}
+    <meta name="twitter:card" content="summary"/>
+  {{ end }}
+
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ partial "structured-data.html" . }}
+</head>
+
+<body class="{{ block "body_class" . }}page{{ end }}">
+
+  {{ partial "header.html" . }}
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{ $js := resources.Get "js/main.js" }}
+  {{ if hugo.IsProduction }}{{ $js = $js | minify | fingerprint }}{{ end }}
+
+  <!-- GSAP for scroll animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="{{ $js.RelPermalink }}" defer></script>
+
+  {{ partial "google-analytics.html" . }}
+</body>
+</html>

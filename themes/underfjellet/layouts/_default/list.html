@@ -1,0 +1,12 @@
+{{ define "body_class" }}page page-list{{ end }}
+
+{{ define "main" }}
+<div class="page-single">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}

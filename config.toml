@@ -1,7 +1,7 @@
-baseURL = "http://underfjellet.no/"
+baseURL = "https://underfjellet.no/"
 languageCode = "no"
 title = "Dyrlegen Under Fjellet"
-theme = "hugo-serif-theme"
+theme = "underfjellet"
 
 [params.logo]
 mobile = "images/du_logo.png"
@@ -41,13 +41,16 @@ copyright_text = '&#169; 2021-2026 Dyrlegen Under Fjellet'
 
 [params.fonts]
 # sets the google font link in layouts/partials/google-fonts.html
-google_fonts = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap'
-heading = "Playfair Display"
-base = "Source Sans Pro"
+google_fonts = 'https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600&display=swap'
+heading = "Comfortaa"
+base = "Nunito"
 
 [params.colors]
-primary = "#67a2d5"
-black = "#2f2f41"
+primary = "#5ba5c5"
+black = "#2a2d24"
 white = "#ffffff"
-white_offset = "#f6f7ff"
-grey = "#5C5A5A"
+white_offset = "#f7f6f2"
+grey = "#6b6966"
+
+[params.seo]
+meta_og_image = "images/du_logo.png"

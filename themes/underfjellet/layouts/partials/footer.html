@@ -1,0 +1,40 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <img height="48" alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}">
+        </div>
+        <p>Din veterinær i Holmestrand sentrum.</p>
+      </div>
+      <div class="footer-contact">
+        <h4>Kontakt</h4>
+        {{ with .Site.Data.contact.phone }}<p>Tlf: <a href="tel:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .Site.Data.contact.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+        <address>Holmestrandgaten 17<br>3080 Holmestrand</address>
+      </div>
+      <div class="footer-nav">
+        <h4>Sider</h4>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="site-footer-bottom">
+    <div class="container">
+      <span>{{ .Site.Params.footer.copyright_text | safeHTML }}</span>
+      {{ if .Site.Data.social }}
+      <div class="social-links">
+        {{ range .Site.Data.social }}
+        <a href="{{ .link }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}">
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</footer>

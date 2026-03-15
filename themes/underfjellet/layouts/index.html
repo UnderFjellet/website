@@ -1,0 +1,98 @@
+{{ define "body_class" }}page page-home{{ end }}
+
+{{ define "main" }}
+
+{{/* ── HERO ─────────────────────────────────────────────── */}}
+<section class="hero" id="hero">
+  {{ partial "paw-trail.html" . }}
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-eyebrow">Dyrlegen i Holmestrand</span>
+      {{ .Content }}
+      <div class="hero-actions">
+        {{ with .Site.Data.contact.contact_button_link }}
+        <a href="{{ . }}" class="btn btn-primary">{{ $.Site.Data.contact.contact_button_text }}</a>
+        {{ end }}
+        <a href="{{ "omoss/" | relURL }}" class="btn btn-outline">Om oss</a>
+      </div>
+      {{ if .Site.Params.homepage.show_contact_box }}
+      <div class="hero-contact-bar">
+        {{ with .Site.Data.contact.phone }}
+        <div class="item">
+          <span class="label">Telefon</span>
+          <span class="value"><a href="tel:{{ . }}">{{ . }}</a></span>
+        </div>
+        {{ end }}
+        {{ with .Site.Data.contact.email }}
+        <div class="item">
+          <span class="label">E-post</span>
+          <span class="value"><a href="mailto:{{ . }}">{{ . }}</a></span>
+        </div>
+        {{ end }}
+        <div class="item">
+          <span class="label">Adresse</span>
+          <span class="value">Holmestrandgaten 17, 3080</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .Params.intro_image }}
+    <div class="hero-illustration">
+      <img src="{{ . | relURL }}" alt="Illustrasjon" width="480" height="420">
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{/* ── FEATURES STRIP ──────────────────────────────────── */}}
+<section class="features-strip">
+  <div class="container">
+    <div class="features-grid">
+
+      {{/* Opening hours */}}
+      <div class="feature-card fade-up" data-delay="0">
+        <div class="card-icon">
+          <img src="/images/time_icon.svg" alt="Åpningstider" width="60" height="60">
+        </div>
+        <h3>Åpningstider</h3>
+        <table>
+          <tbody>
+            {{ range .Site.Data.opening.rows }}
+            <tr><td>{{ .Day }}</td><td>{{ .Opening }}</td></tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+
+      {{/* Location */}}
+      <div class="feature-card fade-up" data-delay="120">
+        <div class="card-icon">
+          <img src="/images/location_icon.svg" alt="Adresse" width="60" height="60">
+        </div>
+        <h3>Besøksadresse</h3>
+        <div class="feature-map">
+          <a href="https://goo.gl/maps/1BQSCtxoFfwXiFKVA" target="_blank" rel="noopener">
+            <img src="/images/map_mini.png" alt="Kart" style="border-radius:8px;width:120px;height:100px;object-fit:cover;margin:0 auto .75rem;">
+          </a>
+        </div>
+        <p><a href="https://goo.gl/maps/1BQSCtxoFfwXiFKVA" target="_blank" rel="noopener">Holmestrandgaten 17<br>3080 Holmestrand</a></p>
+      </div>
+
+      {{/* Dynamic feature cards from data/features.json */}}
+      {{ range $i, $f := .Site.Data.features }}
+      <div class="feature-card fade-up" data-delay="{{ mul (add $i 2) 120 }}">
+        {{ with $f.image }}
+        <div class="card-icon">
+          <img src="{{ . | relURL }}" alt="{{ $f.title }}" width="60" height="60">
+        </div>
+        {{ end }}
+        <h3>{{ $f.title }}</h3>
+        <p>{{ $f.description }}</p>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ end }}
