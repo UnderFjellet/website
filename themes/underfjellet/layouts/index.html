@@ -50,7 +50,7 @@
     <div class="features-grid">
 
       {{/* Opening hours */}}
-      <div class="feature-card fade-up" data-delay="0">
+      <div class="feature-card">
         <div class="card-icon">
           <img src="/images/time_icon.svg" alt="Åpningstider" width="60" height="60">
         </div>
@@ -65,7 +65,7 @@
       </div>
 
       {{/* Location */}}
-      <div class="feature-card fade-up" data-delay="120">
+      <div class="feature-card">
         <div class="card-icon">
           <img src="/images/location_icon.svg" alt="Adresse" width="60" height="60">
         </div>
@@ -80,10 +80,16 @@
 
       {{/* Dynamic feature cards from data/features.json */}}
       {{ range $i, $f := .Site.Data.features }}
-      <div class="feature-card fade-up" data-delay="{{ mul (add $i 2) 120 }}">
-        {{ with $f.image }}
+      <div class="feature-card">
+        {{ if $f.image }}
         <div class="card-icon">
-          <img src="{{ . | relURL }}" alt="{{ $f.title }}" width="60" height="60">
+          <img src="{{ $f.image | relURL }}" alt="{{ $f.title }}" width="60" height="60">
+        </div>
+        {{ else }}
+        <div class="card-icon card-icon-default">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <ellipse cx="50" cy="66" rx="22" ry="20"/><ellipse cx="24" cy="43" rx="11" ry="13"/><ellipse cx="43" cy="32" rx="11" ry="13"/><ellipse cx="63" cy="32" rx="11" ry="13"/><ellipse cx="78" cy="44" rx="10" ry="12"/>
+          </svg>
         </div>
         {{ end }}
         <h3>{{ $f.title }}</h3>
