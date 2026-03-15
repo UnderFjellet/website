@@ -1,6 +1,7 @@
 ---
 title: 'Om oss'
-description: 'Om oss'
+description: 'Lokal smådyrklinikk i Holmestrand – bli kjent med oss.'
+intro_image: "images/sr.jpg"
 layout: aboutus
 ---
 Dyrlegen Under Fjellet er en lokal smådyrklinikk i Holmestrand. Vi er opptatt av å kjenne dyrene og eierne våre – og å gi den samme varme og faglige oppfølgingen hver gang du besøker oss.

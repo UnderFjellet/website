@@ -38,6 +38,7 @@
   </main>
 
   {{ partial "footer.html" . }}
+  {{ partial "booking-drawer.html" . }}
 
   {{ $js := resources.Get "js/main.js" }}
   {{ if hugo.IsProduction }}{{ $js = $js | minify | fingerprint }}{{ end }}
@@ -48,5 +49,8 @@
   <script src="{{ $js.RelPermalink }}" defer></script>
 
   {{ partial "google-analytics.html" . }}
+  {{ with .Site.Params.google }}{{ if and .places_id .api_key }}
+  <script>window.GOOGLE_PLACES_CONFIG={placeId:"{{ .places_id }}",apiKey:"{{ .api_key }}"};</script>
+  {{ end }}{{ end }}
 </body>
 </html>

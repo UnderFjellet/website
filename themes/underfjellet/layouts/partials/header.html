@@ -2,7 +2,7 @@
   <div class="container">
     <div class="logo">
       <a href="{{ .Site.Home.RelPermalink }}">
-        <img height="64" alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}">
+        <img alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}">
       </a>
     </div>
     <nav aria-label="Hovedmeny">
@@ -17,6 +17,9 @@
         {{ end }}
       </ul>
     </nav>
+    {{ with .Site.Data.contact.contact_button_link }}
+    <a href="{{ . }}" class="btn btn-primary btn-sm header-booking">{{ $.Site.Data.contact.contact_button_text }}</a>
+    {{ end }}
     <button class="hamburger-btn" id="hamburger" aria-label="Meny" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -27,5 +30,8 @@
   <button class="close-btn" id="mobile-nav-close" aria-label="Lukk meny">&#x2715;</button>
   {{ range .Site.Menus.main }}
   <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+  {{ with .Site.Data.contact.contact_button_link }}
+  <a href="{{ . }}" class="btn btn-primary" style="margin-top:1rem;">{{ $.Site.Data.contact.contact_button_text }}</a>
   {{ end }}
 </div>

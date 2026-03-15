@@ -16,25 +16,30 @@ show_services_button = true  # show / hide the "view all services" button
 
 [menu]
   # Main Menu
-  # [[menu.main]]
-  #     name = "Tjenester"
-  #     url = "/tjenester/"
-  #     weight = 4
-
   [[menu.main]]
       name = "Hjem"
       url = "/"
+      weight = 1
+
+  [[menu.main]]
+      name = "Tjenester"
+      url = "/tjenester/"
+      weight = 2
+
+  [[menu.main]]
+      name = "Priser"
+      url = "/priser/"
+      weight = 3
+
+  [[menu.main]]
+      name = "Spørsmål og svar"
+      url = "/faq/"
       weight = 4
 
   [[menu.main]]
       name = "Om oss"
       url = "/omoss/"
-      weight = 8
-
-  [[menu.main]]
-      name = "Priser"
-      url = "/priser/"
-      weight = 8
+      weight = 5
 
 [params.footer]
 copyright_text = '&#169; 2021-2026 Dyrlegen Under Fjellet'
@@ -54,3 +59,9 @@ grey = "#6b6966"
 
 [params.seo]
 meta_og_image = "images/du_logo.png"
+
+[params.google]
+# Google Places API — enables live review fetching on the homepage.
+# API key should have Places API (New) enabled, restricted to underfjellet.no
+places_id = "ChIJPa0ayPw1QUYRHcHiujesi0Y"
+api_key   = "AIzaSyD6wLWiUwWRcqMgSnZT-2gD8eoHV1Sr0jU"

@@ -47,7 +47,15 @@
     "addressLocality": "Holmestrand",
     "postalCode": "3080",
     "addressCountry": "NO"
-  }
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "15:30"
+    }
+  ]
 }
 </script>
 
@@ -60,7 +68,7 @@
   <div class="container">
     <div class="logo">
       <a href="/">
-        <img height="64" alt="Dyrlegen Underfjellet" src="/images/du_logo.png">
+        <img alt="Dyrlegen Underfjellet" src="/images/du_logo.png">
       </a>
     </div>
     <nav aria-label="Hovedmeny">
@@ -76,7 +84,7 @@
         
         
         <li class="">
-          <a href="/omoss/">Om oss</a>
+          <a href="/tjenester/">Tjenester</a>
         </li>
         
         
@@ -85,8 +93,23 @@
           <a href="/priser/">Priser</a>
         </li>
         
+        
+        
+        <li class="">
+          <a href="/faq/">Spørsmål og svar</a>
+        </li>
+        
+        
+        
+        <li class="">
+          <a href="/omoss/">Om oss</a>
+        </li>
+        
       </ul>
     </nav>
+    
+    <a href="https://my.provet.com/dyrlegen-under-fjellet" class="btn btn-primary btn-sm header-booking">Bestill Time</a>
+    
     <button class="hamburger-btn" id="hamburger" aria-label="Meny" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -98,9 +121,16 @@
   
   <a href="/">Hjem</a>
   
-  <a href="/omoss/">Om oss</a>
+  <a href="/tjenester/">Tjenester</a>
   
   <a href="/priser/">Priser</a>
+  
+  <a href="/faq/">Spørsmål og svar</a>
+  
+  <a href="/omoss/">Om oss</a>
+  
+  
+  <a href="https://my.provet.com/dyrlegen-under-fjellet" class="btn btn-primary" style="margin-top:1rem;">Bestill Time</a>
   
 </div>
 
@@ -155,7 +185,7 @@
 
       <div class="hero-actions">
         
-        <a href="https://provetcloud.com/4370/onlinebooking/?lang=nb" class="btn btn-primary">Bestill Time</a>
+        <a href="https://my.provet.com/dyrlegen-under-fjellet" class="btn btn-primary">Bestill Time</a>
         
         <a href="/omoss/" class="btn btn-outline">Om oss</a>
       </div>
@@ -180,11 +210,59 @@
       </div>
       
     </div>
+
     
-    <div class="hero-illustration">
-      <img src="/images/vet_illustration_1.svg" alt="Illustrasjon" width="480" height="420">
+    <div class="hero-visual">
+      
+      <div class="hero-illustration">
+        <img src="/images/vet_illustration_1.svg" alt="Illustrasjon" width="480" height="520">
+      </div>
+      
+
+      
+      <div class="hero-reviews-strip">
+        <div class="reviews-track" id="reviews-track">
+          
+          <div class="review-card active" data-index="0">
+            <div class="review-stars" aria-label="5 av 5 stjerner">
+              <svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <blockquote class="review-text"><p>Superfornøyd, hyggelig pris, raskt svar på både mail og telefon og fikk time når vi ønsket det. Svært behagelig veterinær, god til å forklare hva prosedyren innebar, og evt risikoer.</p></blockquote>
+            <div class="review-author">— Google-bruker</div>
+            
+          </div>
+          
+          <div class="review-card" data-index="1">
+            <div class="review-stars" aria-label="5 av 5 stjerner">
+              <svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="15" height="15"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <blockquote class="review-text"><p>Gått hit flere ganger med min hund og veterinæren er veldig mild, hyggelig, rolig og forklarer kjempebra. Virker også rimeligere enn andre klinikker i området, noe som er et kjempestort pluss.</p></blockquote>
+            <div class="review-author">— Google-bruker</div>
+            
+          </div>
+          
+        </div>
+        
+        <div class="reviews-nav">
+          <button class="reviews-prev" id="reviews-prev" aria-label="Forrige">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="reviews-dots" id="reviews-dots">
+            
+            <button class="dot active" data-index="0" aria-label="Anmeldelse 1"></button>
+            
+            <button class="dot" data-index="1" aria-label="Anmeldelse 2"></button>
+            
+          </div>
+          <button class="reviews-next" id="reviews-next" aria-label="Neste">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        
+      </div>
+      
     </div>
-    
+
   </div>
 </section>
 
@@ -246,6 +324,7 @@
         
         <h3>Personlig oppfølging</h3>
         <p>Du møter alltid den samme veterinæren. Vi tar oss tid til å bli kjent med dyret ditt og følge det opp på en helhetlig måte.</p>
+        
       </div>
       
       <div class="feature-card">
@@ -258,6 +337,7 @@
         
         <h3>Moderne klinikk</h3>
         <p>Klinikken er utstyrt med moderne diagnostisk utstyr, inkludert tannrøntgen og blodprøveanalyse – alt under samme tak.</p>
+        
       </div>
       
       <div class="feature-card">
@@ -268,8 +348,9 @@
           </svg>
         </div>
         
-        <h3>Midt i Holmestrand</h3>
-        <p>Vi holder til sentralt i Holmestrand sentrum – lett å finne, enkelt å parkere, og alltid et kjent fjes i døra.</p>
+        <h3>Book time online</h3>
+        <p>Bestill time direkte på nett – raskt og enkelt, døgnet rundt. Velg dato og tidspunkt som passer deg.</p>
+        <a href="https://provetcloud.com/4370/onlinebooking/?lang=nb" class="btn btn-primary btn-sm">Bestill time</a>
       </div>
       
 
@@ -301,9 +382,13 @@
           
           <li><a href="/">Hjem</a></li>
           
-          <li><a href="/omoss/">Om oss</a></li>
+          <li><a href="/tjenester/">Tjenester</a></li>
           
           <li><a href="/priser/">Priser</a></li>
+          
+          <li><a href="/faq/">Spørsmål og svar</a></li>
+          
+          <li><a href="/omoss/">Om oss</a></li>
           
         </ul>
       </div>
@@ -325,6 +410,74 @@
   </div>
 </footer>
 
+  <div id="booking-drawer" class="booking-drawer" aria-hidden="true" role="dialog" aria-label="Bestill time" aria-modal="true">
+  <div class="booking-backdrop" id="booking-backdrop"></div>
+  <div class="booking-panel">
+
+    <div class="booking-panel-head">
+      <span class="booking-panel-title">Bestill time</span>
+      <button class="booking-panel-close" id="booking-close" aria-label="Lukk">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="booking-panel-body">
+
+      <div class="booking-clinic-intro">
+        <img src="/images/du_logo.png" alt="Dyrlegen Under Fjellet" class="booking-logo">
+        <p>Dyrlegen Under Fjellet bruker Provet for online bestilling. Det tar under 2 minutter.</p>
+      </div>
+
+      <ol class="booking-steps">
+        <li>
+          <span class="step-num">1</span>
+          <div><strong>Velg tjeneste</strong><span>Konsultasjon, vaksinasjon, tannbehandling eller annet</span></div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div><strong>Velg dato og tid</strong><span>Se ledige tider i sanntid</span></div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div><strong>Bekreft</strong><span>Du mottar bekreftelse og SMS-påminnelse</span></div>
+        </li>
+      </ol>
+
+      <div class="booking-hours">
+        <strong>Åpningstider</strong>
+        <table>
+          
+          <tr><td>Mandag</td><td>09:00 - 15:30</td></tr>
+          
+          <tr><td>Tirsdag</td><td>09:00 - 15:30</td></tr>
+          
+          <tr><td>Onsdag</td><td>09:00 - 15:30</td></tr>
+          
+          <tr><td>Torsdag</td><td>09:00 - 15:30</td></tr>
+          
+          <tr><td>Fredag</td><td>09:00 - 15:30</td></tr>
+          
+          <tr><td>Lørdag</td><td>Stengt</td></tr>
+          
+          <tr><td>Søndag</td><td>Stengt</td></tr>
+          
+        </table>
+      </div>
+
+      <div class="booking-cta-wrap">
+        <a href="https://my.provet.com/dyrlegen-under-fjellet" target="_blank" rel="noopener" class="btn btn-primary booking-cta-btn" id="booking-go">
+          Åpne bestillingsside
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        
+        <p class="booking-phone-alt">Foretrekker du å ringe? <a href="tel:94090111">94090111</a></p>
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
   
   
@@ -336,5 +489,8 @@
 
   
 
+  
+  <script>window.GOOGLE_PLACES_CONFIG={placeId:"ChIJPa0ayPw1QUYRHcHiujesi0Y",apiKey:"AIzaSyD6wLWiUwWRcqMgSnZT-2gD8eoHV1Sr0jU"};</script>
+  
 </body>
 </html>
