@@ -1,0 +1,50 @@
+[
+  {
+    "icon": "consult",
+    "title": "Konsultasjon",
+    "description": "Klinisk undersøkelse av hund, katt og smådyr. Du møter alltid samme veterinær.",
+    "link": "/tjenester/#konsultasjon"
+  },
+  {
+    "icon": "vaccine",
+    "title": "Vaksinasjon",
+    "description": "Vaksiner for hund og katt, inkludert rabies og forebyggende helsesjekk.",
+    "link": "/tjenester/#vaksinasjon-og-forebyggende-helse"
+  },
+  {
+    "icon": "dental",
+    "title": "Tannbehandling",
+    "description": "Tannsteinfjerning, polering og tannrøntgen. Tannekstrahering ved behov.",
+    "link": "/tjenester/#tannbehandling"
+  },
+  {
+    "icon": "surgery",
+    "title": "Kirurgi",
+    "description": "Kastrering, fjerning av hudsvulster og enklere kirurgiske inngrep.",
+    "link": "/tjenester/#kirurgi"
+  },
+  {
+    "icon": "id",
+    "title": "ID-merking og pass",
+    "description": "Mikrochip-merking, EU-pass og sertifisering for reiser til utlandet.",
+    "link": "/tjenester/#id-merking-og-pass"
+  },
+  {
+    "icon": "grooming",
+    "title": "Kloklipp og stell",
+    "description": "Kloklipp, ørerens og sårstell for hund og katt.",
+    "link": "/tjenester/#kloklipp-og-stell"
+  },
+  {
+    "icon": "food",
+    "title": "Spesialfôr",
+    "description": "Vi selger Hill's spesialfôr og hjelper med Hill's to Home abonnement.",
+    "link": "/tjenester/#spesialfor"
+  },
+  {
+    "icon": "euthanasia",
+    "title": "Avliving",
+    "description": "En god og verdig avslutning. Samarbeid med Hjertedyr Drammen krematorium.",
+    "link": "/tjenester/#avliving"
+  }
+]

@@ -1,3 +1,20 @@
+// ── Services carousel ────────────────────────────────────────
+(function () {
+  const track = document.getElementById('services-track');
+  const prev  = document.getElementById('services-prev');
+  const next  = document.getElementById('services-next');
+  if (!track || !prev || !next) return;
+
+  const cardWidth = () => {
+    const card = track.querySelector('.service-card');
+    if (!card) return 240;
+    return card.offsetWidth + parseInt(getComputedStyle(track).gap || '20', 10);
+  };
+
+  prev.addEventListener('click', () => track.scrollBy({ left: -cardWidth(), behavior: 'smooth' }));
+  next.addEventListener('click', () => track.scrollBy({ left:  cardWidth(), behavior: 'smooth' }));
+})();
+
 // ── Reviews carousel + optional Google Places fetch ──────────
 (function () {
   // ── Carousel engine ──────────────────────────────────────
@@ -262,18 +279,18 @@ window.addEventListener('load', () => {
     }
   });
 
-  // Feature cards stagger in
-  const cards = gsap.utils.toArray('.feature-card');
+  // Service cards stagger in
+  const cards = gsap.utils.toArray('.service-card');
   if (cards.length) {
     gsap.from(cards, {
-      y: 45,
+      y: 35,
       opacity: 0,
-      duration: 0.65,
-      stagger: 0.14,
+      duration: 0.55,
+      stagger: 0.08,
       ease: 'power2.out',
       clearProps: 'all',
       scrollTrigger: {
-        trigger: '.features-strip',
+        trigger: '.services-section',
         start: 'top 82%',
       }
     });

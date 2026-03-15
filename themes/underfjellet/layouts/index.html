@@ -81,61 +81,48 @@
   </div>
 </section>
 
-{{/* ── FEATURES STRIP ──────────────────────────────────── */}}
-<section class="features-strip">
+{{/* ── SERVICES CAROUSEL ───────────────────────────────── */}}
+<section class="services-section">
   <div class="container">
-    <div class="features-grid">
-
-      {{/* Opening hours */}}
-      <div class="feature-card">
-        <div class="card-icon">
-          <img src="/images/time_icon.svg" alt="Åpningstider" width="60" height="60">
-        </div>
-        <h3>Åpningstider</h3>
-        <table>
-          <tbody>
-            {{ range .Site.Data.opening.rows }}
-            <tr><td>{{ .Day }}</td><td>{{ .Opening }}</td></tr>
-            {{ end }}
-          </tbody>
-        </table>
-      </div>
-
-      {{/* Location */}}
-      <div class="feature-card">
-        <div class="card-icon">
-          <img src="/images/location_icon.svg" alt="Adresse" width="60" height="60">
-        </div>
-        <h3>Besøksadresse</h3>
-        <div class="feature-map">
-          <a href="https://goo.gl/maps/1BQSCtxoFfwXiFKVA" target="_blank" rel="noopener">
-            <img src="/images/map_mini.png" alt="Kart" style="border-radius:8px;width:120px;height:100px;object-fit:cover;margin:0 auto .75rem;">
-          </a>
-        </div>
-        <p><a href="https://goo.gl/maps/1BQSCtxoFfwXiFKVA" target="_blank" rel="noopener">Holmestrandgaten 17<br>3080 Holmestrand</a></p>
-      </div>
-
-      {{/* Dynamic feature cards from data/features.json */}}
-      {{ range $i, $f := .Site.Data.features }}
-      <div class="feature-card">
-        {{ if $f.image }}
-        <div class="card-icon">
-          <img src="{{ $f.image | relURL }}" alt="{{ $f.title }}" width="60" height="60">
-        </div>
-        {{ else }}
-        <div class="card-icon card-icon-default">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <ellipse cx="50" cy="66" rx="22" ry="20"/><ellipse cx="24" cy="43" rx="11" ry="13"/><ellipse cx="43" cy="32" rx="11" ry="13"/><ellipse cx="63" cy="32" rx="11" ry="13"/><ellipse cx="78" cy="44" rx="10" ry="12"/>
-          </svg>
-        </div>
-        {{ end }}
-        <h3>{{ $f.title }}</h3>
-        <p>{{ $f.description }}</p>
-        {{ if $f.link }}<a href="{{ $f.link }}" class="btn btn-primary btn-sm">{{ $f.link_text | default "Les mer" }}</a>{{ end }}
-      </div>
-      {{ end }}
-
+    <div class="services-header">
+      <h2>Tjenester</h2>
+      <a href="{{ "tjenester/" | relURL }}" class="services-all-link">Se alle tjenester →</a>
     </div>
+  </div>
+  <div class="services-carousel-wrap">
+    <button class="services-prev" id="services-prev" aria-label="Forrige">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="services-track" id="services-track">
+      {{ range $.Site.Data.services }}
+      <a class="service-card" href="{{ .link | relURL }}">
+        <div class="service-card-icon">
+          {{ if eq .icon "consult" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="8" y="6" width="32" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/><line x1="16" y1="16" x2="32" y2="16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="16" y1="24" x2="32" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="16" y1="32" x2="24" y2="32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          {{ else if eq .icon "vaccine" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M30 8l10 10-18 18-10-10 18-18z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><line x1="8" y1="40" x2="16" y2="32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="24" y1="12" x2="36" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          {{ else if eq .icon "dental" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16 8c-4 0-8 3-8 8 0 6 4 10 6 16 1 3 2 8 4 8s2-4 6-4 5 4 6 4 3-5 4-8c2-6 6-10 6-16 0-5-4-8-8-8-2 0-4 1-6 3-2-2-4-3-6-3z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          {{ else if eq .icon "surgery" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 36L36 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M36 12l-6 2 4 4 2-6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 36c-2 2-4 2-4 4s2 2 4 0l8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          {{ else if eq .icon "id" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="6" y="12" width="36" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/><circle cx="18" cy="24" r="5" stroke="currentColor" stroke-width="2.5"/><line x1="28" y1="20" x2="38" y2="20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="28" y1="28" x2="34" y2="28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          {{ else if eq .icon "grooming" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16 10c0 6-8 10-8 18a8 8 0 0016 0c0-8-8-12-8-18z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M32 10c0 6-8 10-8 18a8 8 0 0016 0c0-8-8-12-8-18z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          {{ else if eq .icon "food" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10 20h28l-3 16H13L10 20z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M16 20v-4a8 8 0 0116 0v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          {{ else if eq .icon "euthanasia" }}
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M24 8C15 8 8 15 8 24s7 16 16 16 16-7 16-16S33 8 24 8z" stroke="currentColor" stroke-width="2.5"/><path d="M24 18v6l4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          {{ end }}
+        </div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </a>
+      {{ end }}
+    </div>
+    <button class="services-next" id="services-next" aria-label="Neste">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
   </div>
 </section>
 
