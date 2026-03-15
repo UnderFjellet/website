@@ -1,0 +1,55 @@
+<div id="booking-drawer" class="booking-drawer" aria-hidden="true" role="dialog" aria-label="Bestill time" aria-modal="true">
+  <div class="booking-backdrop" id="booking-backdrop"></div>
+  <div class="booking-panel">
+
+    <div class="booking-panel-head">
+      <span class="booking-panel-title">Bestill time</span>
+      <button class="booking-panel-close" id="booking-close" aria-label="Lukk">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="booking-panel-body">
+
+      <div class="booking-clinic-intro">
+        <img src="{{ "images/du_logo.png" | relURL }}" alt="{{ .Site.Title }}" class="booking-logo">
+        <p>{{ .Site.Title }} bruker Provet for online bestilling. Det tar under 2 minutter.</p>
+      </div>
+
+      <ol class="booking-steps">
+        <li>
+          <span class="step-num">1</span>
+          <div><strong>Velg tjeneste</strong><span>Konsultasjon, vaksinasjon, tannbehandling eller annet</span></div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div><strong>Velg dato og tid</strong><span>Se ledige tider i sanntid</span></div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div><strong>Bekreft</strong><span>Du mottar bekreftelse og SMS-påminnelse</span></div>
+        </li>
+      </ol>
+
+      <div class="booking-hours">
+        <strong>Åpningstider</strong>
+        <table>
+          {{ range .Site.Data.opening.rows }}
+          <tr><td>{{ .Day }}</td><td>{{ .Opening }}</td></tr>
+          {{ end }}
+        </table>
+      </div>
+
+      <div class="booking-cta-wrap">
+        <a href="{{ .Site.Data.contact.contact_button_link }}" target="_blank" rel="noopener" class="btn btn-primary booking-cta-btn" id="booking-go">
+          Åpne bestillingsside
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        {{ with .Site.Data.contact.phone }}
+        <p class="booking-phone-alt">Foretrekker du å ringe? <a href="tel:{{ . }}">{{ . }}</a></p>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</div>

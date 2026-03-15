@@ -8,7 +8,9 @@
     "description": "Klinikken er utstyrt med moderne diagnostisk utstyr, inkludert tannrøntgen og blodprøveanalyse – alt under samme tak."
   },
   {
-    "title": "Midt i Holmestrand",
-    "description": "Vi holder til sentralt i Holmestrand sentrum – lett å finne, enkelt å parkere, og alltid et kjent fjes i døra."
+    "title": "Book time online",
+    "description": "Bestill time direkte på nett – raskt og enkelt, døgnet rundt. Velg dato og tidspunkt som passer deg.",
+    "link": "https://provetcloud.com/4370/onlinebooking/?lang=nb",
+    "link_text": "Bestill time"
   }
 ]
