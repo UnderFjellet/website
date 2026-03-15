@@ -1,0 +1,31 @@
+<header class="site-header" id="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="{{ .Site.Home.RelPermalink }}">
+        <img height="64" alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}">
+      </a>
+    </div>
+    <nav aria-label="Hovedmeny">
+      <ul>
+        {{ $current := . }}
+        {{ range .Site.Menus.main }}
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+        {{ $active = or $active (eq (.URL | relLangURL) ($current.RelPermalink | relLangURL)) }}
+        <li class="{{ if $active }}active{{ end }}">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+    <button class="hamburger-btn" id="hamburger" aria-label="Meny" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav-overlay" id="mobile-nav" aria-hidden="true">
+  <button class="close-btn" id="mobile-nav-close" aria-label="Lukk meny">&#x2715;</button>
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</div>

@@ -7,5 +7,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# God og nær oppfølging for dyret ditt
-Dyrlegen Under Fjellet er din veterinær i Holmestrand sentrum. 
+# Trygg og nær omsorg for hunden og katten din
+
+Dyrlegen Under Fjellet er en koselig smådyrklinikk midt i Holmestrand sentrum. Vi gir hunder, katter og andre smådyr varm og profesjonell veterinæromsorg – og du møter alltid den samme veterinæren for helhetlig og trygg oppfølging.

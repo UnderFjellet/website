@@ -1,0 +1,10 @@
+{{ define "body_class" }}page page-404{{ end }}
+
+{{ define "main" }}
+<div class="page-404">
+  <div class="big">404</div>
+  <h2>Siden ble ikke funnet</h2>
+  <p>Siden du leter etter finnes ikke lenger, eller adressen er feil.</p>
+  <a href="{{ .Site.Home.RelPermalink }}" class="btn btn-primary">Gå til forsiden</a>
+</div>
+{{ end }}

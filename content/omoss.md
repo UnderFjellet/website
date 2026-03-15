@@ -1,9 +1,11 @@
 ---
 title: 'Om oss'
 description: 'Om oss'
-layout: aboutus 
+layout: aboutus
 ---
-## Maria Palomar -- Daglig leder og veterinær
+Dyrlegen Under Fjellet er en lokal smådyrklinikk i Holmestrand. Vi er opptatt av å kjenne dyrene og eierne våre – og å gi den samme varme og faglige oppfølgingen hver gang du besøker oss.
+
+## Maria Palomar — Daglig leder og veterinær
 
 Siden endt utdannelse (2010) har jeg jobbet ved flere smådyrklinikker på
 østlandet, alle på mange måter forskjellige. Jeg og familien flyttet til

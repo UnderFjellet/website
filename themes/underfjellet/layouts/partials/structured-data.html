@@ -1,0 +1,19 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VeterinaryCare",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "telephone": "{{ .Site.Data.contact.phone }}",
+  "email": "{{ .Site.Data.contact.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Holmestrandgaten 17",
+    "addressLocality": "Holmestrand",
+    "postalCode": "3080",
+    "addressCountry": "NO"
+  }
+}
+</script>
+{{ end }}
