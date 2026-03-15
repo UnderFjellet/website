@@ -353,6 +353,8 @@ li { margin-bottom: .35rem; }
     width: 100%;
     text-align: center;
     padding-top: .6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border-top: 1px solid rgba($primary, .2);
 
     .review-card {
@@ -368,18 +370,19 @@ li { margin-bottom: .35rem; }
       svg { width: 11px; height: 11px; }
     }
     .review-text {
-      font-size: .7rem;
+      font-size: .72rem;
       max-width: 100%;
       display: -webkit-box;
-      -webkit-line-clamp: 7;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       &::before, &::after { display: none; }
+      p { font-size: .72rem; color: $grey; font-style: italic; margin: 0; display: inline; }
     }
     .review-author { font-size: .68rem; }
     .review-time   { display: none; }
 
-    .reviews-track { min-height: 0; }
+    .reviews-track { min-height: 0; height: 130px; overflow: hidden; }
 
     .reviews-nav {
       margin-top: .4rem;
@@ -399,10 +402,14 @@ li { margin-bottom: .35rem; }
     .container { grid-template-columns: 1fr; gap: 2rem; text-align: center; }
     &::before { width: 100%; height: 55%; top: -4%; border-radius: 0 0 50% 50% / 0 0 30% 30%; }
     .hero-illustration { display: none; }
+    .hero-visual { gap: 0; }
     .hero-reviews-strip {
       border-top: none;
       padding-top: 0;
-      .review-text { margin: 0 auto; }
+      padding-left: 0;
+      padding-right: 0;
+      .reviews-track { height: auto; }
+      .review-text { margin: 0 auto; max-width: 480px; }
     }
     .hero-actions { justify-content: center; }
     .hero-contact-bar { justify-content: center; }
@@ -697,6 +704,129 @@ blockquote {
     img { height: 20px; width: auto; filter: brightness(0) invert(1); opacity: .4; transition: opacity .2s; }
     a:hover img { opacity: .9; }
   }
+}
+
+// ============================================================
+// Services carousel
+// ============================================================
+.services-section {
+  padding: 4rem 0 4.5rem;
+  background: $white-offset;
+  overflow: hidden;
+}
+
+.services-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  h2 { margin: 0; }
+}
+
+.services-all-link {
+  font-size: .85rem;
+  font-weight: 600;
+  color: $primary;
+  white-space: nowrap;
+  &:hover { color: $primary-dark; }
+}
+
+.services-carousel-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: 0 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.services-track {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+  padding: .5rem .25rem 1rem;
+  flex: 1;
+}
+
+.service-card {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  background: $white;
+  border-radius: $radius;
+  padding: 1.75rem 1.5rem;
+  box-shadow: $shadow-sm;
+  border: 1px solid rgba(0,0,0,.04);
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .22s ease, box-shadow .22s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow;
+    color: inherit;
+  }
+
+  h3 {
+    font-size: .95rem;
+    color: $black;
+    margin: 0;
+  }
+
+  p {
+    font-size: .8rem;
+    color: $grey;
+    margin: 0;
+    line-height: 1.55;
+  }
+}
+
+.service-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: $primary-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $primary;
+  flex-shrink: 0;
+  margin-bottom: .25rem;
+
+  svg { width: 24px; height: 24px; }
+}
+
+.services-prev,
+.services-next {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0,0,0,.12);
+  background: $white;
+  cursor: pointer;
+  color: $black;
+  transition: background .2s, border-color .2s, color .2s;
+  box-shadow: $shadow-sm;
+  &:hover { background: $primary; border-color: $primary; color: $white; }
+  &:disabled { opacity: .3; cursor: default; &:hover { background: $white; border-color: rgba(0,0,0,.12); color: $black; } }
+  @media (max-width: 560px) { display: none; }
+}
+
+@media (max-width: 560px) {
+  .services-carousel-wrap { padding: 0; }
+  .services-track { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .service-card { flex: 0 0 180px; padding: 1.25rem 1rem; }
 }
 
 // ============================================================
