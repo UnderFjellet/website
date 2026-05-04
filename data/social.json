@@ -3,5 +3,10 @@
         "name": "Facebook",
         "link": "https://www.facebook.com/Dyrlegen-Under-Fjellet-101450502247929",
         "image": "images/Antu_facebook.svg"
+    },
+    {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/dyrlegenunderfjellet/",
+        "image": "images/Antu_instagram.svg"
     }
 ]
