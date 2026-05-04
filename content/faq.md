@@ -10,7 +10,7 @@ Ja, i utgangspunktet. Book time på nett via [vår bestillingsside](https://prov
 
 ## Hva koster en konsultasjon?
 
-En konsultasjon på inntil 20 minutter koster 895 kr. Lengre konsultasjoner koster 1495–2195 kr avhengig av tidsbruk (forbruksmateriell og medisiner kommer det i tilleg) Se grunnpriser på [Priser-siden](/priser/).
+En konsultasjon på inntil 20 minutter koster 895 kr. Lengre konsultasjoner koster 1495–2195 kr avhengig av tidsbruk (forbruksmateriell og medisiner kommer det i tillegg). Se grunnpriser på [Priser-siden](/priser/).
 
 ## Tar dere imot nye kunder?
 

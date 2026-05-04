@@ -265,7 +265,7 @@ li {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 7rem 0 5rem;
+  padding: calc(7rem + var(--notice-h, 0px)) 0 5rem;
   overflow: hidden; }
   .hero::before {
     content: '';
@@ -406,7 +406,7 @@ li {
       height: 5px; }
   @media (max-width: 768px) {
     .hero {
-      padding: 8rem 0 4rem; }
+      padding: calc(8rem + var(--notice-h, 0px)) 0 4rem; }
       .hero .container {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -500,7 +500,7 @@ li {
 .page-banner {
   position: relative;
   background: #ebf4f8;
-  padding: 7.5rem 0 3rem;
+  padding: calc(7.5rem + var(--notice-h, 0px)) 0 3rem;
   overflow: hidden; }
   .page-banner::after {
     content: '';
@@ -557,7 +557,7 @@ li {
     z-index: 0; }
   @media (max-width: 768px) {
     .page-banner {
-      padding: 7rem 0 3rem; } }
+      padding: calc(7rem + var(--notice-h, 0px)) 0 3rem; } }
 blockquote {
   background: #ebf4f8;
   border-left: 4px solid #5ba5c5;

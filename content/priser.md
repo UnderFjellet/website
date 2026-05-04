@@ -47,20 +47,16 @@ description: "Prisliste for veterinærtjenester hos Dyrlegen Under Fjellet i Hol
 
 ## Betaling
 
-Vi tar **kort og Vipps**. Betaling skjer ved konsultasjonsslutt.
+Vi tar kort og Vipps. Vi ber om betaling ved konsultasjonsslutt.
 
 ## Dyreforsikring
 
-Har du dyreforsikring? Vi behandler krav fra alle de store norske forsikringsselskapene. Du betaler vanligvis konsultasjonsbeløpet og sender inn kvittering til forsikringsselskapet ditt etterpå.
+Har du dyreforsikring? Vi tilbyr direkteoppgjør for Agria, If og Gjensidige. Ellers fasiliterer vi journal og kvitteringer per e-post.
 
 Har du ikke forsikring ennå, anbefaler vi å undersøke dette – uventede veterinærregninger kan bli store. Sjekk for eksempel [Agria Dyreforsikring](https://www.agria.no), [If Dyreforsikring](https://www.if.no), [Gjensidige Kjæledyrforsikring](https://www.gjensidige.no) eller [Tryg Dyreforsikring](https://www.tryg.no) for sammenligning.
 
 {{< insurance-carousel >}}
 
-## Spesialfôr og Hill's to Home
-
-Vi selger Hill's spesialfôr i klinikken og kan bestille produkter vi ikke har på lager. For dyr som trenger langvarig diettmat anbefaler vi **Hill's to Home** – Hills egen abonnementstjeneste for hjemlevering. Du kan bestille direkte med anbefaling fra oss som klinikk.
-
----
+--
 
 [Book time online](https://provetcloud.com/4370/onlinebooking/?lang=nb) eller ring oss på [94090111](tel:94090111).
