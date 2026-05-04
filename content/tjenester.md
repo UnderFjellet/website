@@ -2,61 +2,66 @@
 title: 'Tjenester'
 meta_title: 'Tjenester – Dyrlegen Under Fjellet, Holmestrand'
 description: "Oversikt over tjenester hos Dyrlegen Under Fjellet – veterinær i Holmestrand sentrum."
-intro_image: "images/sr.jpg"
 ---
 
 ## Konsultasjon
 
-Vi tilbyr klinisk undersøkelse av hund, katt og andre smådyr. Du møter alltid den samme veterinæren, noe som gir god kontinuitet og helhetlig oppfølging. Konsultasjonstid fra 20 til 60 minutter tilpasses behovet.
+En grundig klinisk undersøkelse av hund, katt og andre smådyr. På klinikken tar vi blodprøver, urinprøver, avføringsprøver og celleprøver. Vi utfører blodtrykksmåling, gjør ultralydundersøkelser og mikroskopi.
 
-Vi kan ta blodprøver og urinprøver direkte på klinikken med rask analysering.
+## Forebyggende oppfølging
 
-## Vaksinasjon og forebyggende helse
+Årlig helsesjekk, vaksiner og annen forebyggende behandling:
 
-- Vaksine hund (DHPPi, Pi, BbPi)
-- Vaksine katt (tricat, ducat)
-- Rabiesvaksine og leptospirose
-- Helsesjekk av frisk hund eller katt – uten vaksine
+- Vaksinering etter anbefaling
+- Reiservaksiner: Rabies, leptospirose
+- Helsesjekk av antatt friske dyr
 
-Jevnlig vaksinasjon og helsesjekk er det enkleste du kan gjøre for dyrets langsiktige helse.
+Jevnlig helsesjekk og vaksinasjon er det enkleste du kan gjøre for dyrets langsiktige helse.
 
 ## ID-merking og pass
 
 - Mikrochip-merking med registrering i DyreId
 - Utstedelse av EU-pass for reiser til utlandet
-- Sertifisering og ormekuroppføring i pass
+- Ormekur og sertifisering i pass
 
-## Tannbehandling
+# Tannbehandling
 
-God tannhelse er viktig for trivsel og levetid. Vi tilbyr:
+God tannhelse er viktig for trivsel og generell helse. Vi tilbyr:
 
-- Tannhelseundersøkelse med tannstein­fjerning, polering og tannrøntgen (katt og hund)
-- Tannekstrahering ved behov
-
-Kontakt oss for prisoverslag på tannekstrahering.
+- Tannhelseundersøkelse med tannsteinfjerning, polering og tannrøntgen full munn (katt og hund)
+- Tannekstraksjon (tanntrekk) ved behov
 
 ## Kirurgi
 
-- Kastrering av hannkatt og hunnkatt
-- Kjemisk kastrering av hund (Suprelorin)
-- Fjerning av hudsvulster og enklere kirurgiske inngrep
+Vi utfører kastrering og annen bløtvevskirurgi:
 
-For større inngrep eller spesialiserte behov henviser vi til dyreklinikk eller dyresykehus.
+- Kastrering av hannkatt og hunnkatt
+- Kastrering av hannhund ved indikasjon
+- Fjerning av hudsvulster og andre kirurgiske inngrep
+
+Ved behov henviser vi til spesialiste eller dyresykehus.
 
 ## Kloklipp og stell
 
-- Kloklipp hund og katt
+- Kloklipp
 - Ørerens
-- Sårstell
+- Pelsstell
+- Løveklipp med sedasjon
 
-## Avliving
+## Livsavslutning
 
-En god og verdig avslutning når det er nødvendig. Vi samarbeider med [Hjertedyr Drammen](https://www.hjertedyr.no) smådyrkrematorium for felleskremering og separat kremering.
+En god og verdig avslutning når det er nødvendig. Vi samarbeider med [Hjertedyr Smådyrkrematorium](https://www.hjertedyr.no) for felleskremering og separat kremering.
 
 ## Spesialfôr
 
-Vi selger og bestiller Hill's spesialfôr. For langvarige dietter kan du benytte Hill's to Home – en abonnementstjeneste for hjemlevering med vår anbefaling som grunnlag.
+Vi selger spesialfôr fra Hill's. Hos oss kan du bruke [Hill's Advantage app](https://loyaltyapp.store/hillsadvantageno) og få bonus på hvert kjøp.
 
 ---
 
 [Book time online](https://provetcloud.com/4370/onlinebooking/?lang=nb) eller ring oss på [94090111](tel:94090111).
+
+
+## Vi selger
+
+  - Spesialfôr fra Hill`s. Vi finner det fôret som best ivaretar helsen til det enkelte dyret og kan bestille inn fôr vi ikke har inne på lager.
+  - Apotekvarer som spesialsjampo/hudprodukter, tannhelseprodukter, ørerens, pro/prebiotika, kosttilskudd.

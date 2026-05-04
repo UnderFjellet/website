@@ -95,7 +95,13 @@
     </button>
     <div class="services-track" id="services-track">
       {{ range $.Site.Data.services }}
-      <a class="service-card" href="{{ .link | relURL }}">
+      <div class="service-card">
+        <a class="service-card-overlay" href="{{ .link | relURL }}" aria-label="{{ .title }}"></a>
+        {{ if and .app_link .app_logo }}
+        <a class="service-card-icon service-card-icon--logo" href="{{ .app_link }}" target="_blank" rel="noopener" aria-label="{{ with .app_label }}{{ . }}{{ else }}{{ .title }}{{ end }}">
+          <img src="{{ .app_logo | relURL }}" alt="{{ with .app_label }}{{ . }}{{ else }}{{ .title }}{{ end }}">
+        </a>
+        {{ else }}
         <div class="service-card-icon">
           {{ if eq .icon "consult" }}
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="8" y="6" width="32" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/><line x1="16" y1="16" x2="32" y2="16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="16" y1="24" x2="32" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="16" y1="32" x2="24" y2="32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
@@ -115,9 +121,10 @@
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M24 8C15 8 8 15 8 24s7 16 16 16 16-7 16-16S33 8 24 8z" stroke="currentColor" stroke-width="2.5"/><path d="M24 18v6l4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
           {{ end }}
         </div>
+        {{ end }}
         <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
-      </a>
+        <p>{{ .description | safeHTML }}</p>
+      </div>
       {{ end }}
     </div>
     <button class="services-next" id="services-next" aria-label="Neste">

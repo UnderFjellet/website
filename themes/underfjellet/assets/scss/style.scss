@@ -655,6 +655,66 @@ blockquote {
 }
 
 // ============================================================
+// Insurance partners carousel (priser.md)
+// ============================================================
+.insurance-marquee {
+  width: 100%;
+  overflow: hidden;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 0;
+  background: $white-offset;
+  border-radius: $radius;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.insurance-track {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  width: max-content;
+  animation: insurance-scroll 24s linear infinite;
+}
+
+.insurance-marquee:hover .insurance-track {
+  animation-play-state: paused;
+}
+
+.insurance-logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 56px;
+  padding: 0 .5rem;
+  opacity: .85;
+  transition: opacity .2s, transform .2s;
+
+  img {
+    max-height: 44px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+  }
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes insurance-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .insurance-track { animation: none; }
+}
+
+// ============================================================
 // Besøksadresse / map section
 // ============================================================
 .visit-section {
@@ -794,6 +854,7 @@ blockquote {
 }
 
 .service-card {
+  position: relative;
   flex: 0 0 220px;
   scroll-snap-align: start;
   background: $white;
@@ -828,7 +889,35 @@ blockquote {
   }
 }
 
+.service-card-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 1;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.service-card-icon--logo {
+  width: auto;
+  min-width: 44px;
+  max-width: 110px;
+  background: transparent;
+  padding: 0 .25rem;
+  transition: opacity .2s;
+
+  img {
+    max-height: 32px;
+    width: auto;
+    display: block;
+  }
+
+  &:hover { opacity: .8; }
+}
+
 .service-card-icon {
+  position: relative;
+  z-index: 2;
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -841,6 +930,12 @@ blockquote {
   margin-bottom: .25rem;
 
   svg { width: 24px; height: 24px; }
+}
+
+.service-card h3,
+.service-card p {
+  position: relative;
+  z-index: 2;
 }
 
 .services-prev,

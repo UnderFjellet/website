@@ -1,7 +1,6 @@
 ---
 title: 'Om oss'
 description: 'Lokal smådyrklinikk i Holmestrand – bli kjent med oss.'
-intro_image: "images/sr.jpg"
 layout: aboutus
 ---
 Dyrlegen Under Fjellet er en lokal smådyrklinikk i Holmestrand. Vi er opptatt av å kjenne dyrene og eierne våre – og å gi den samme varme og faglige oppfølgingen hver gang du besøker oss.
@@ -11,27 +10,8 @@ Dyrlegen Under Fjellet er en lokal smådyrklinikk i Holmestrand. Vi er opptatt a
 Siden endt utdannelse (2010) har jeg jobbet ved flere smådyrklinikker på
 østlandet, alle på mange måter forskjellige. Jeg og familien flyttet til
 Holmestrand i 2017, og denne flotte byen blir stadig større og mer spennende.
-Med etableringen av “Dyrlegen Under Fjellet” i oktober 2021 ønsket vi å være med
+Med etableringen av “Dyrlegen Under Fjellet” i 2021 ønsket vi å være med
 på denne utviklingen! Her tar jeg med meg erfaringer og det jeg har likt best
-fra tidligere arbeidsplasser for å utvikle en koselig og moderne klinikk. Jeg
+fra tidligere arbeidsplasser for å utvikle en koselig og moderne klinikk i vekst. Jeg
 har et bredt interessefelt innen smådyrklinikk, og jeg liker aller best å kunne
 følge dyrene og eierne på en helhetlig måte.
-
-
-## Tjenester
-
-Av tjenester tilbyr vi blant annet: 
-  - Konsultasjoner – klinisk undersøkelse, blodprøver, urinprøver
-  - Vaksinering, id-merking, passutstedelse
-  - Tannbehandling, tannrøntgen
-  - Kloklipp
-  - Ørerens
-  - Sårstell 
-  - Mindre kirurgiske inngrep som kastrering av katt, fjerning av hudsvulster.
-  - Når det er nødvendig henviser vi til større dyreklinikker /dyresykehus og spesialister. 
-  - En god livsavslutning når det er nødvendig. Vi har samarbeid med Hjertedyr Drammen smådyrkrematorium  for felleskremering og separat kremering. De tilbyr også nydelige urner og askesmykker. www.hjertedyr.no
-
-Vi selger: 
-
-  - Spesialfôr fra Hill`s. Vi finner det fôret som best ivaretar helsen til det enkelte dyret og kan bestille inn fôr vi ikke har inne på lager. 
-  - Apotekvarer som spesialsjampo /hudprodukter, tannhelseprodukter, ørerens, pro /prebiotika, omega 3-tilskudd. 
