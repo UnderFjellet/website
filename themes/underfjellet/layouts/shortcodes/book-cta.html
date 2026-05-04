@@ -1,0 +1,6 @@
+{{ $url := .Site.Data.contact.contact_button_link | default "https://my.provet.com/dyrlegen-under-fjellet" }}
+{{ $phone := .Site.Data.contact.phone | default "94090111" }}
+<div class="page-cta">
+  <a class="btn btn-primary" href="{{ $url }}" target="_blank" rel="noopener">Bestill Time</a>
+  <a class="btn btn-outline" href="tel:{{ $phone }}">Ring {{ $phone }}</a>
+</div>

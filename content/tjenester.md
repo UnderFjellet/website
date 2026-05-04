@@ -24,7 +24,7 @@ Jevnlig helsesjekk og vaksinasjon er det enkleste du kan gjøre for dyrets langs
 - Utstedelse av EU-pass for reiser til utlandet
 - Ormekur og sertifisering i pass
 
-# Tannbehandling
+## Tannbehandling
 
 God tannhelse er viktig for trivsel og generell helse. Vi tilbyr:
 
@@ -61,6 +61,5 @@ En god og verdig avslutning når det er nødvendig. Vi samarbeider med [Hjertedy
   - Apotekvarer som spesialsjampo/hudprodukter, tannhelseprodukter, ørerens, pro/prebiotika, kosttilskudd.
 
 
---
 
-[Book time online](https://provetcloud.com/4370/onlinebooking/?lang=nb) eller ring oss på [94090111](tel:94090111).
+{{< book-cta >}}
