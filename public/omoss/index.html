@@ -37,6 +37,46 @@
 
 <body class="page page-single">
 
+  
+<div class="site-notice" id="site-notice" role="status">
+  <div class="container">
+    <svg class="site-notice-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+      <circle cx="12" cy="10" r="3"/>
+    </svg>
+    <span class="site-notice-text">Vi har flyttet! Du finner oss nå i <strong>Sykehusveien 14, 3080 Holmestrand</strong>.</span>
+    
+    <a class="site-notice-cta" href="https://www.google.com/maps/search/?api=1&amp;query=Sykehusveien&#43;14%2C&#43;3080&#43;Holmestrand" target="_blank" rel="noopener">Se kart →</a>
+    
+    <button class="site-notice-close" type="button" aria-label="Lukk varsel">×</button>
+  </div>
+</div>
+<script>
+  (function(){
+    var key = 'site-notice-dismissed-moved-2026';
+    var root = document.documentElement;
+    var n = document.getElementById('site-notice');
+    function clear() {
+      if (n) n.style.display = 'none';
+      root.style.setProperty('--notice-h', '0px');
+    }
+    function fit() {
+      if (!n) return;
+      root.style.setProperty('--notice-h', n.offsetHeight + 'px');
+    }
+    if (!n) { clear(); return; }
+    try { if (localStorage.getItem(key)) { clear(); return; } } catch(e) {}
+    fit();
+    window.addEventListener('resize', fit);
+    var btn = n.querySelector('.site-notice-close');
+    if (btn) btn.addEventListener('click', function(){
+      clear();
+      try { localStorage.setItem(key, '1'); } catch(e) {}
+    });
+  })();
+</script>
+
+
   <header class="site-header" id="site-header">
   <div class="container">
     <div class="logo">
@@ -219,7 +259,7 @@ følge dyrene og eierne på en helhetlig måte.</p>
           <img src="/images/Antu_facebook.svg" alt="Facebook">
         </a>
         
-        <a href="https://www.instagram.com/dyrlegenunderfjellet/" target="_blank" rel="noopener" aria-label="Instagram">
+        <a href="https://www.instagram.com/dyrlegen_underfjellet/" target="_blank" rel="noopener" aria-label="Instagram">
           <img src="/images/Antu_instagram.svg" alt="Instagram">
         </a>
         
