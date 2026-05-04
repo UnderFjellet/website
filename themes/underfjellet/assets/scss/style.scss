@@ -247,7 +247,7 @@ li { margin-bottom: .35rem; }
   position: relative;
   display: flex;
   align-items: center;
-  padding: 7rem 0 5rem;
+  padding: calc(7rem + var(--notice-h, 0px)) 0 5rem;
   overflow: hidden;
 
   // Teal blob — top left background (behind text)
@@ -401,7 +401,7 @@ li { margin-bottom: .35rem; }
   }
 
   @media (max-width: 768px) {
-    padding: 8rem 0 4rem;
+    padding: calc(8rem + var(--notice-h, 0px)) 0 4rem;
     .container { grid-template-columns: 1fr; gap: 2rem; text-align: center; }
     &::before { width: 100%; height: 55%; top: -4%; border-radius: 0 0 50% 50% / 0 0 30% 30%; }
     .hero-illustration { display: none; }
@@ -483,7 +483,7 @@ li { margin-bottom: .35rem; }
 .page-banner {
   position: relative;
   background: $primary-light;
-  padding: 7.5rem 0 3rem;
+  padding: calc(7.5rem + var(--notice-h, 0px)) 0 3rem;
   overflow: hidden;
 
   // Curved bottom edge
@@ -550,7 +550,7 @@ li { margin-bottom: .35rem; }
 
   .paw-trail { z-index: 0; }
 
-  @media (max-width: 768px) { padding: 7rem 0 3rem; }
+  @media (max-width: 768px) { padding: calc(7rem + var(--notice-h, 0px)) 0 3rem; }
 }
 
 // ============================================================
