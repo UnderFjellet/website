@@ -380,14 +380,16 @@ li {
         font-style: italic;
         margin: 0;
         display: inline; }
+    .hero .hero-reviews-strip .review-text {
+      margin-bottom: .35rem; }
     .hero .hero-reviews-strip .review-author {
-      font-size: .68rem; }
+      font-size: .72rem;
+      font-weight: 700; }
     .hero .hero-reviews-strip .review-time {
       display: none; }
     .hero .hero-reviews-strip .reviews-track {
-      min-height: 0;
-      height: 130px;
-      overflow: hidden; }
+      min-height: 130px;
+      height: auto; }
     .hero .hero-reviews-strip .reviews-nav {
       margin-top: .4rem;
       gap: .4rem; }
