@@ -97,7 +97,9 @@ li {
 
 .site-header {
   position: fixed;
-  inset: 0 0 auto;
+  top: var(--notice-h, 0);
+  left: 0;
+  right: 0;
   z-index: 200;
   padding: 1rem 0;
   background: rgba(235, 244, 248, 0.88);
@@ -716,6 +718,68 @@ blockquote {
       padding: 2.5rem 0 3rem; }
       .visit-section .visit-card .visit-map {
         height: 260px; } }
+.site-notice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 201;
+  background: #5ba5c5;
+  color: #ffffff;
+  font-size: .9rem;
+  line-height: 1.4; }
+  .site-notice .container {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    padding-top: .65rem;
+    padding-bottom: .65rem;
+    flex-wrap: wrap; }
+  .site-notice .site-notice-icon {
+    flex-shrink: 0;
+    color: #ffffff; }
+  .site-notice .site-notice-text {
+    flex: 1;
+    min-width: 0; }
+    .site-notice .site-notice-text strong {
+      font-weight: 700; }
+    .site-notice .site-notice-text a {
+      color: #ffffff;
+      text-decoration: underline; }
+  .site-notice .site-notice-cta {
+    flex-shrink: 0;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: .25rem .75rem;
+    border: 1.5px solid rgba(255, 255, 255, 0.55);
+    border-radius: 999px;
+    transition: background .2s, border-color .2s; }
+    .site-notice .site-notice-cta:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: #ffffff;
+      color: #ffffff; }
+  .site-notice .site-notice-close {
+    flex-shrink: 0;
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: .15rem .5rem;
+    cursor: pointer;
+    opacity: .7;
+    transition: opacity .2s; }
+    .site-notice .site-notice-close:hover {
+      opacity: 1; }
+  @media (max-width: 640px) {
+    .site-notice {
+      font-size: .82rem; }
+      .site-notice .container {
+        gap: .5rem; }
+      .site-notice .site-notice-cta {
+        padding: .2rem .55rem;
+        font-size: .78rem; } }
 .site-footer {
   background: #2a2d24;
   color: rgba(255, 255, 255, 0.6);
@@ -777,13 +841,13 @@ blockquote {
     gap: .75rem;
     align-items: center; }
     .site-footer-bottom .social-links img {
-      height: 20px;
+      height: 22px;
       width: auto;
-      filter: brightness(0) invert(1);
-      opacity: .4;
-      transition: opacity .2s; }
+      opacity: .85;
+      transition: opacity .2s, transform .2s; }
     .site-footer-bottom .social-links a:hover img {
-      opacity: .9; }
+      opacity: 1;
+      transform: translateY(-1px); }
 
 .services-section {
   padding: 4rem 0 4.5rem;

@@ -14,6 +14,16 @@ alt = "Dyrlegen Underfjellet"
 show_contact_box = true # show / hide the contaxt box on the homepage
 show_services_button = true  # show / hide the "view all services" button
 
+[params.notice]
+# Site-wide announcement banner, shown above the header.
+# Set show=false to hide it. Bump `id` when the message changes
+# so visitors who dismissed the previous banner see the new one.
+show     = true
+id       = "moved-2026"
+text     = 'Vi har flyttet! Du finner oss nå i <strong>Sykehusveien 14, 3080 Holmestrand</strong>.'
+cta_text = "Se kart"
+cta_url  = "https://www.google.com/maps/search/?api=1&query=Sykehusveien+14%2C+3080+Holmestrand"
+
 [menu]
   # Main Menu
   [[menu.main]]
