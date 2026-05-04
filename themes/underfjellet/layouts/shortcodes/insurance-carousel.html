@@ -1,0 +1,14 @@
+{{/* Auto-scrolling marquee of insurance partner logos.
+     Each logo is duplicated to enable a seamless infinite loop. */}}
+{{ $items := .Site.Data.insurance }}
+<div class="insurance-marquee" aria-label="Forsikringsselskap vi behandler krav fra">
+  <div class="insurance-track">
+    {{ range $i := seq 1 2 }}
+    {{ range $items }}
+    <a class="insurance-logo" href="{{ .link }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
+      <img src="{{ .logo | relURL }}" alt="{{ .name }}">
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>

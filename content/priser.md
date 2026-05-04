@@ -13,10 +13,10 @@ description: "Prisliste for veterinærtjenester hos Dyrlegen Under Fjellet i Hol
 ## Helsesjekk og vaksinering
 
 - Vaksine hund (DHPPi, Pi, BbPi): 795,-
-- BbPi (tillegg ved vaksine med DHPPi): 250,-
+- BbPi (tillegg ved vaksine med DHPPi): 270,-
 - Vaksine katt: tricat, ducat: 795,-
 - Rabiesvaksine: 795,-
-- Leptospirose (tillegg): 250,-
+- Leptospirose: 300,-
 - Helsesjekk antatt frisk, uten vaksine: 695,-
 
 ## Annet
@@ -53,11 +53,9 @@ Vi tar **kort og Vipps**. Betaling skjer ved konsultasjonsslutt.
 
 Har du dyreforsikring? Vi behandler krav fra alle de store norske forsikringsselskapene. Du betaler vanligvis konsultasjonsbeløpet og sender inn kvittering til forsikringsselskapet ditt etterpå.
 
-Mange uventede veterinærregninger – særlig tannbehandling og kirurgi – kan dekkes helt eller delvis av forsikring. Dersom du ikke har forsikring ennå, anbefaler vi å undersøke dette:
+Har du ikke forsikring ennå, anbefaler vi å undersøke dette – uventede veterinærregninger kan bli store. Sjekk for eksempel [Agria Dyreforsikring](https://www.agria.no), [If Dyreforsikring](https://www.if.no), [Gjensidige Kjæledyrforsikring](https://www.gjensidige.no) eller [Tryg Dyreforsikring](https://www.tryg.no) for sammenligning.
 
-- [Agria Djurforsikring](https://www.agria.no) — markedsleder i Norge
-- [If Dyreforsikring](https://www.if.no)
-- [Gjensidige Kjæledyrforsikring](https://www.gjensidige.no)
+{{< insurance-carousel >}}
 
 ## Spesialfôr og Hill's to Home
 

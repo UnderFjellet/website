@@ -2,25 +2,25 @@
   {
     "icon": "consult",
     "title": "Konsultasjon",
-    "description": "Klinisk undersøkelse av hund, katt og smådyr. Du møter alltid samme veterinær.",
+    "description": "En grundig klinisk undersøkelse av hund, katt og smådyr. Blodprøver, urinprøver, blodtrykksmåling, ultralyd og tannrøntgen …",
     "link": "/tjenester/#konsultasjon"
   },
   {
     "icon": "vaccine",
-    "title": "Vaksinasjon",
-    "description": "Vaksiner for hund og katt, inkludert rabies og forebyggende helsesjekk.",
-    "link": "/tjenester/#vaksinasjon-og-forebyggende-helse"
+    "title": "Forebyggende oppfølging",
+    "description": "Årlig helsesjekk, vaksiner og annen forebyggende behandling.",
+    "link": "/tjenester/#forebyggende-oppfølging"
   },
   {
     "icon": "dental",
     "title": "Tannbehandling",
-    "description": "Tannsteinfjerning, polering og tannrøntgen. Tannekstrahering ved behov.",
+    "description": "Tannhelseundersøkelse inkludert tannsteinfjerning, polering og tannrøntgen full munn. Tannekstraksjon/tanntrekk.",
     "link": "/tjenester/#tannbehandling"
   },
   {
     "icon": "surgery",
     "title": "Kirurgi",
-    "description": "Kastrering, fjerning av hudsvulster og enklere kirurgiske inngrep.",
+    "description": "Vi utfører kastrering og annen bløtvevskirurgi som fjerning av hudsvulster.",
     "link": "/tjenester/#kirurgi"
   },
   {
@@ -32,19 +32,22 @@
   {
     "icon": "grooming",
     "title": "Kloklipp og stell",
-    "description": "Kloklipp, ørerens og sårstell for hund og katt.",
+    "description": "Kloklipp, ørerens og pelsstell. Løveklipp med sedasjon.",
     "link": "/tjenester/#kloklipp-og-stell"
   },
   {
     "icon": "food",
     "title": "Spesialfôr",
-    "description": "Vi selger Hill's spesialfôr og hjelper med Hill's to Home abonnement.",
-    "link": "/tjenester/#spesialfor"
+    "description": "Vi selger spesialfôr fra Hill's. Hos oss kan du bruke Hill's Advantage app.",
+    "link": "/tjenester/#spesialfôr",
+    "app_link": "https://loyaltyapp.store/hillsadvantageno",
+    "app_logo": "images/hills_logo.jpg",
+    "app_label": "Hill's Advantage app"
   },
   {
     "icon": "euthanasia",
-    "title": "Avliving",
-    "description": "En god og verdig avslutning. Samarbeid med Hjertedyr Drammen krematorium.",
-    "link": "/tjenester/#avliving"
+    "title": "Livsavslutning",
+    "description": "En god og verdig avslutning. Vi samarbeider med <a href=\"https://www.hjertedyr.no\" target=\"_blank\" rel=\"noopener\">Hjertedyr Smådyrkrematorium</a>.",
+    "link": "/tjenester/#livsavslutning"
   }
 ]

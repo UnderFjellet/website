@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Agria Dyreforsikring",
+        "link": "https://www.agria.no",
+        "logo": "images/insurance/agria.svg"
+    },
+    {
+        "name": "If Dyreforsikring",
+        "link": "https://www.if.no",
+        "logo": "images/insurance/if.svg"
+    },
+    {
+        "name": "Gjensidige Kjæledyrforsikring",
+        "link": "https://www.gjensidige.no",
+        "logo": "images/insurance/gjensidige.svg"
+    },
+    {
+        "name": "Tryg Dyreforsikring",
+        "link": "https://www.tryg.no",
+        "logo": "images/insurance/tryg.svg"
+    }
+]
