@@ -381,10 +381,11 @@ li { margin-bottom: .35rem; }
       &::before, &::after { display: none; }
       p { font-size: .72rem; color: $grey; font-style: italic; margin: 0; display: inline; }
     }
-    .review-author { font-size: .68rem; }
+    .review-text   { margin-bottom: .35rem; }
+    .review-author { font-size: .72rem; font-weight: 700; }
     .review-time   { display: none; }
 
-    .reviews-track { min-height: 0; height: 130px; overflow: hidden; }
+    .reviews-track { min-height: 130px; height: auto; }
 
     .reviews-nav {
       margin-top: .4rem;
