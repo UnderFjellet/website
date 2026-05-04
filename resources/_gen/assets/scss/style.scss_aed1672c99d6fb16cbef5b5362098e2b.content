@@ -639,6 +639,25 @@ blockquote {
   .page-aboutus .content h2:first-of-type {
     margin-top: 1.5rem; }
 
+.page-cta {
+  margin: 3rem auto 0;
+  padding: 1.75rem 1.5rem;
+  background: #ebf4f8;
+  border-radius: 12px;
+  max-width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
+  justify-content: center; }
+  .page-cta .btn {
+    flex: 0 1 auto;
+    white-space: nowrap; }
+  @media (max-width: 480px) {
+    .page-cta {
+      padding: 1.25rem; }
+      .page-cta .btn {
+        width: 100%; } }
 .insurance-marquee {
   width: 100%;
   overflow: hidden;

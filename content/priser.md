@@ -57,6 +57,4 @@ Har du ikke forsikring ennå, anbefaler vi å undersøke dette – uventede vete
 
 {{< insurance-carousel >}}
 
---
-
-[Book time online](https://provetcloud.com/4370/onlinebooking/?lang=nb) eller ring oss på [94090111](tel:94090111).
+{{< book-cta >}}

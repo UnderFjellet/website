@@ -6,7 +6,7 @@ description: "Svar på vanlige spørsmål om time, priser, forsikring og akutt h
 
 ## Trenger jeg time?
 
-Ja, i utgangspunktet. Book time på nett via [vår bestillingsside](https://provetcloud.com/4370/onlinebooking/?lang=nb) eller ring oss på [94090111](tel:94090111). Det gjør at vi kan forberede oss og sette av nok tid til dyret ditt.
+Ja, i utgangspunktet. Bestill time på nett via [vår bestillingsside](https://my.provet.com/dyrlegen-under-fjellet) eller ring oss på [94090111](tel:94090111). Det gjør at vi kan forberede oss og sette av nok tid til dyret ditt.
 
 ## Hva koster en konsultasjon?
 
@@ -32,7 +32,7 @@ Vi tar kort og Vipps. Vi ber om betaling ved konsultasjonsslutt.
 
 ## Slik booker du time – steg for steg
 
-1. Gå til [provetcloud.com/4370/onlinebooking](https://provetcloud.com/4370/onlinebooking/?lang=nb)
+1. Gå til [my.provet.com/dyrlegen-under-fjellet](https://my.provet.com/dyrlegen-under-fjellet)
 2. Velg type konsultasjon og ønsket dato/tidspunkt
 3. Fyll inn kontaktinformasjon og dyrets navn
 4. Du mottar bekreftelse og påminnelse på SMS eller e-post
